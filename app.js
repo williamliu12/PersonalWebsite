@@ -14,12 +14,6 @@ function autoClick(){
     let phoneApp = document.querySelector(".phone-app");
     phoneApp.click();
 };
-
-// function checkScreenWidth(){
-//     if(screen.width = 375){
-//         autoClick();
-//     }
-// };
 console.log(screen.width); 
 
 (function checkScreenWidth(){
@@ -27,16 +21,16 @@ console.log(screen.width);
     if(screenWidth == 375){
         autoClick();
     }
-    if(screenWidth == 411){
+    else if(screenWidth == 411){
         autoClick();
     }
-    if(screenWidth == 414){
+    else if(screenWidth == 414){
         autoClick();
     }
-    if(screenWidth == 768){
+    else if(screenWidth == 768){
         autoClick();
     }
-    if(screenWidth == 1024){
+    else if(screenWidth == 1024){
         autoClick();
     }
 })();
