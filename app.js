@@ -16,7 +16,7 @@ function autoClick(){
 };
 //Media Queries
 const media = matchMedia("(max-width: 375px)");
-media.addEventListener("change", ()=>{
+media.addEventListener(screen.width = 375, ()=>{
     autoClick();
 });
 const media1 = matchMedia("(max-width: 411px)");
