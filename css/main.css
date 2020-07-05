@@ -1,0 +1,244 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.phone-app{
+    display: none;
+}
+.phone-app1{
+    display: none;
+}
+
+li{
+    list-style: none;
+}
+
+.logo{
+    cursor:pointer;
+}
+
+.nav-sel{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 2em 6em;
+}
+
+.contact-button{
+    color:white;
+    padding: 9px 25px;
+    border: 1px solid;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.contact-button:hover{
+    color:#FFAB9B;
+    background-color: white;
+}
+
+.gradient{
+    position: absolute;
+    z-index: -1;
+    width: 51%;
+    left: 49%;
+}
+
+.gradient-2{
+    display: none;
+}
+.gradient-3{
+    display: none;
+}
+
+.main-name{
+    display: flex;
+    justify-content: center;
+    padding: 8em;
+}
+
+.logo-background{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 49%;
+}
+
+.scroll-arrow{
+    display: none;
+}
+
+.short-desc{
+    display: none;
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #16354F;
+}
+
+.about-me{
+    display: flex;
+    justify-content: space-between;
+    padding: 21em 5em;
+}
+
+.about-me-img{
+    max-width: 40%;
+    border-radius: 50px; 
+    margin: auto;
+}
+
+.about-me-words{
+    margin: auto;
+    justify-content: center;
+    font-size: 3.25em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #223749;
+    padding-right: 3em;
+    padding-left: 4em;
+}
+
+#about-me-word{
+    padding-bottom: .5em;
+}
+
+#about-me-desc{
+    font-size: .4em;
+    font-weight: 400;
+}
+
+.skills-word{
+    display: flex;
+    justify-content: center;
+    font-size: 4em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.skills-area{
+    display: flex;
+    justify-content: space-between;
+    padding: 9em 15em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #16354F;
+    font-style: italic;
+    text-align: center;
+}
+
+.js-word{
+    margin-top: .5em;
+}
+.java-word{
+    margin-top: .25em;
+}
+.cpp-word{
+    margin-top: .25em;
+}
+
+.contact-me-word{
+    display: flex;
+    padding-left: 3em;
+    font-size: 4em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #223749;
+}
+
+#error-message{
+    display: flex;
+    justify-content: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #223749;
+    padding-bottom: 1em;
+}
+
+.contact-me-area{
+    padding: 2em 12em 5em;
+}
+
+.name-and-email{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.flex-item-wrapper{
+    width: 49.5%;
+}
+
+.contact-words{
+    padding: .5em 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #223749;
+}
+
+.input-field{
+    width: 100%;    
+    padding: 1em;
+    height: 3em;
+    border: 1px solid;
+    border-radius: 5px;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: .5px;
+    font-size: 1em;
+    color: #223749;
+}
+
+#message-contact{
+    display: block;
+    height: 16em;
+    resize: none;
+    text-align: left;
+}
+
+.send-button-wrapper{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding-top: 1em;
+}
+
+.send-button{
+    border: 1px solid;
+    border-radius: 50px;
+    padding: .5em;
+    padding-right: 1em;
+    padding-left: 1em;
+    color: #FFAB9B;
+    transition: 0.2s;
+}
+
+.send-button:hover{
+    color: white;
+    background-color:#FFAB9B;
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    padding: 3em 5em 1em;
+    background-color: rgb(252, 234, 231);
+}
+
+a{
+    text-decoration: none;
+}

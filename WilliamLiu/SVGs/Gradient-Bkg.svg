@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 774 1528">
+  <defs>
+    <linearGradient id="gradientbkg-a" x1="50%" x2="50%" y1="57.616%" y2="96.376%">
+      <stop offset="0%" stop-color="#FFAB9B"/>
+      <stop offset="23.129%" stop-color="#FFC8B8"/>
+      <stop offset="100%" stop-color="#FFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="774" height="1528" x="666" fill="url(#gradientbkg-a)" fill-rule="evenodd" transform="translate(-666)"/>
+</svg>

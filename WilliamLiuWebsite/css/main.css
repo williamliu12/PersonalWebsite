@@ -1,0 +1,332 @@
+html,body{
+    margin: 0;
+    height: 100%;   
+}
+
+.gradient{
+    position: absolute;
+    z-index: -1;
+    width: 47%;
+    left: 53%;
+}
+
+.gradient-2{
+    position: absolute;
+    z-index: -1;
+    width: 47%;
+    top: 30%;
+    left: 53%;
+}
+
+.gradient-3{
+    position: absolute;
+    z-index: -1;
+    width: 47%;
+    top: 45%;
+    left: 53%;
+}
+
+.top-bar{
+    display: flex;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    animation: fadeInDown 2.5s;
+}
+
+.logo{
+    float: left;
+    margin: auto;
+    margin-right: 54%;
+    margin-top: 2%;
+    margin-left: 6%;
+}
+
+.logo-background{
+    position: absolute;
+    margin-top: 7em; 
+    z-index: -1;
+    width: 53%;
+    animation-name: fadeInLeft;
+    animation-duration: 2.5s;
+}
+.nav-buttons{
+   color: white;
+   overflow: hidden;
+   margin-top: 1.5%;
+}
+
+.nav-buttons-word{
+    border: 1px solid;
+    border-radius: 50px;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-right: .5em;
+    padding-left: .5em
+}
+
+/*
+#contact-button{
+    position: fixed;
+}
+*/
+
+#contact-button:hover{
+    color:#FFAB9B;
+    background-color: white;
+    cursor: default;
+}
+
+.main-name{
+    display: flex;
+    justify-content: center;
+    margin-top: 25%;
+    margin-left: 12%;
+    width: 75%; 
+    animation: fadeInDown 2.5s;
+}
+
+.short-desc{
+    display: flex;
+    font-size: .75em;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #16354F;
+    margin-bottom: 95%;
+    margin-left: 70%;
+    margin-right: 5%;
+    margin-top: -32.5%;
+    animation-name: fadeInUp;
+    animation-duration: 3.5s;
+}
+
+.scroll-arrow{
+    position: absolute;
+    width: 4%;
+    top: 67%;
+    left: 12.5em;
+    animation-name: fadeInDown;
+    animation-duration: 4s;
+}
+
+.scroll-word{
+    position: absolute;
+    transform: rotate(-90deg);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: white;
+    top: 70%;
+    left: 50em;
+    animation-name: fadeInDown;
+    animation-duration: 2.5s;
+}
+
+.about-me-img{ 
+    display: flex;
+    height: auto;
+    max-width: 80%;
+    margin: auto;
+    border-radius: 30%;
+}
+
+.about-me-word{
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #223749;
+}
+
+.about-me-desc{
+    font-size: 1.25em;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #16354F;
+    margin: 2em;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #223749;
+}
+
+.skills-icons-first{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #16354F;
+    font-style: italic;
+}
+
+.js-icon{
+    margin-right: 8%;
+}
+.js-word{
+    margin-top: 10%;
+    font-size: 110%;
+}
+.css-icon{
+    margin-right: 10%;
+}
+.css-word{
+    font-size: 120%;
+    text-align: center;
+}
+.html-icon{
+    margin-right: 10%;
+}
+.html-word{
+    font-size: 120%;
+    text-align: center;
+}
+
+.skills-icons-second{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #16354F;
+    font-style: italic;
+}
+.java-icon{
+    float: left;
+    margin-left: 15%;
+}
+.java-word{
+    font-size: 120%;
+    text-align: center;
+}
+
+.cpp-icon{
+    float: right;
+    margin-left: 15%;
+}
+.cpp-word{
+    font-size: 120%;
+    text-align: center;
+}
+
+#error-message{
+    display: flex;
+    justify-content: left;
+    margin-top: 1%;
+    margin-left: 10%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #223749;
+}
+
+.contact-me-word{
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    margin-top: 20%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #223749;
+}
+
+.contact-inputs{
+    display: flex;
+    justify-content: center;
+    margin-top:5%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #223749;
+}
+
+.input-field{
+    width: 100%;    
+    padding: 1em;
+    height: 4em;
+    border: 1px solid;
+    border-radius: 5px;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: .5px;
+    font-size: 1em;
+}
+
+.contact-input-name{
+    padding-left: 10%;
+    padding-right: 1em;
+}
+.contact-input-email{
+    padding-right: 10%;
+}
+
+.contact-input-subject{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: .5em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #223749;
+}
+.contact-input-message{
+    padding-left: 10%;
+    padding-right: 10%; 
+    padding-top: .5em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #223749;
+}
+
+#message-contact{
+    display: block;
+    height: 16em;
+    resize: none;
+    text-align: left;
+}
+
+.send-button{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: .5em;
+    padding-right: 10%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .75em;
+    font-weight: 500;
+    cursor: default;
+}
+.send-button:hover .btn-pos{
+    color: white;
+    background-color:#FFAB9B;
+}
+
+.btn-pos{
+    border: 1px solid;
+    border-radius: 50px;
+    padding: .5em;
+    padding-right: 1em;
+    padding-left: 1em;
+    color: #FFAB9B;
+    transition: 0.2s;
+}
+
+.footer{
+    display: flex;
+    padding-top: 30%;
+    padding-left: 10%;
+    padding-right: 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.social-icons{
+    justify-content: flex-end;
+    padding-left: 27%;
+}
+
+a{
+    text-decoration: none;
+}

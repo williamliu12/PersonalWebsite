@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="153" viewBox="0 0 40 153">
+  <defs>
+    <linearGradient id="scrollarrow-a" x1="51.465%" x2="53.417%" y1="10.453%" y2="95.504%">
+      <stop offset="0%" stop-color="#FFCFC9"/>
+      <stop offset="100%" stop-color="#FDD5C9"/>
+    </linearGradient>
+  </defs>
+  <polygon fill="url(#scrollarrow-a)" fill-rule="evenodd" points="655 834 634.708 834 634.708 924.598 615 924.598 655 987" transform="translate(-615 -834)"/>
+</svg>
