@@ -22,11 +22,24 @@ function autoClick(){
 // };
 console.log(screen.width); 
 
-
-if(screen.width == 375){
-    autoClick();
-}
-
+(function checkScreenWidth(){
+    screenWidth = screen.width;
+    if(screenWidth == 375){
+        autoClick();
+    }
+    if(screenWidth == 411){
+        autoClick();
+    }
+    if(screenWidth == 414){
+        autoClick();
+    }
+    if(screenWidth == 768){
+        autoClick();
+    }
+    if(screenWidth == 1024){
+        autoClick();
+    }
+})();
 
 // //Media Queries
 // const media = matchMedia("(max-width: 375px)");
