@@ -14,27 +14,41 @@ function autoClick(){
     let phoneApp = document.querySelector(".phone-app");
     phoneApp.click();
 };
-//Media Queries
-const media = matchMedia("(max-width: 375px)");
-media.addEventListener(screen.width = 375, ()=>{
+
+// function checkScreenWidth(){
+//     if(screen.width = 375){
+//         autoClick();
+//     }
+// };
+console.log(screen.width); 
+
+
+if(screen.width == 375){
     autoClick();
-});
-const media1 = matchMedia("(max-width: 411px)");
-media1.addEventListener("change", ()=>{
-    autoClick();
-});
-const media2 = matchMedia("(max-width: 414px)");
-media2.addEventListener("change", ()=>{
-    autoClick();
-});
-const media3 = matchMedia("(max-width: 768px)");
-media3.addEventListener("change", ()=>{
-    autoClick();
-});
-const media4 = matchMedia("(max-width: 1024px)");
-media4.addEventListener("change", ()=>{
-    autoClick();
-});
+}
+
+
+// //Media Queries
+// const media = matchMedia("(max-width: 375px)");
+// media.addEventListener(window.screen.width = 375, ()=>{
+//     autoClick(); 
+// });
+// const media1 = matchMedia("(max-width: 411px)");    
+// media1.addEventListener(window.screen.width = 411, ()=>{
+//     autoClick();
+// });
+// const media2 = matchMedia("(max-width: 414px)");
+// media2.addEventListener(window.screen.width = 414, ()=>{
+//     autoClick();
+// });
+// const media3 = matchMedia("(max-width: 768px)");
+// media3.addEventListener(window.screen.width = 768, ()=>{
+//     autoClick();
+// });
+// const media4 = matchMedia("(max-width: 1024px)");
+// media4.addEventListener(window.screen.width = 1024, ()=>{
+//     autoClick();
+// });
 
 
 function sendForm() {

@@ -10,6 +10,7 @@ contactBtn.addEventListener("click", function () {
     });
 });
 
+console.log(screen.width); 
 
 function sendForm() {
     console.log(sendBtn);
